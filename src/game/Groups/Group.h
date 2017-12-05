@@ -63,8 +63,8 @@ enum GroupType
 enum GroupFlagMask
 {
     GROUP_ASSISTANT      = 0x01,
-    GROUP_MAIN_ASSISTANT = 0x02,
-    GROUP_MAIN_TANK      = 0x04,
+    GROUP_MAIN_TANK      = 0x02,
+    GROUP_MAIN_ASSISTANT = 0x04,
 };
 
 enum GroupUpdateFlags
