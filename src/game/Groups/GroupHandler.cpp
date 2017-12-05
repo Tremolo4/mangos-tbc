@@ -533,7 +533,7 @@ void WorldSession::HandlePartyAssignmentOpcode(WorldPacket& recv_data)
         return;
 
     /** error handling **/
-    if (!group->IsLeader(GetPlayer()->GetObjectGuid()))
+    if (!group->IsLeader(GetPlayer()->GetObjectGuid()) && !group->IsAssistant(GetPlayer()->GetObjectGuid()))
         return;
     /********************/
 
